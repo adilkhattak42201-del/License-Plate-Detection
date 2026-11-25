@@ -1,0 +1,4 @@
+Dataset,Images,Annotations,Average Width,Average Height
+TRAIN,972,1371,416.0,416.0
+VALID,92,147,416.0,416.0
+TEST,46,61,416.0,416.0
