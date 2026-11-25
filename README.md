@@ -1,19 +1,33 @@
-<h1 align="center">🚗 Automatic License Plate Recognition (YOLO)</h1>
-<p align="center"><b>License plate detection model training, dataset quality auditing, and training metrics built with Python, Ultralytics YOLO, and Pandas.</b></p>
+<p align="center"><img src="banner.svg" alt="License Plate Detection" width="100%"></p>
 
-## 📂 Repository Contents
-| File | Description |
-|---|---|
-| [`licence_number_plyte.ipynb`](./licence_number_plyte.ipynb) | Notebook for dataset extraction, training, and inference |
-| [`best.pt`](./best.pt) | Custom-trained YOLO model weights (`train-9`) |
-| [`results.csv`](./results.csv) | Epoch-wise training metrics, losses, and accuracy scores |
-| [`license_plate_dataset_analysis.csv`](./license_plate_dataset_analysis.csv) | Dataset split and annotation analysis |
-| [`license_plate_bbox_statistics.csv`](./license_plate_bbox_statistics.csv) | Bounding box size and aspect ratio statistics |
-| [`license_plate_image_quality.csv`](./license_plate_image_quality.csv) | Image quality audit metrics |
-| [`license_plate_integrity_audit.csv`](./license_plate_integrity_audit.csv) | Dataset integrity and missing/corrupt file check |
+# License Plate Detection
 
-## 🛠️ Tech Stack
-`Python` · `Ultralytics YOLO` · `PyTorch` · `OpenCV` · `Pandas` · `Jupyter Notebook`
+Detects and reads vehicle license plates from images using computer vision and Python.
 
----
-<p align="center">Built by <a href="https://github.com/adilkhattak42201-del">Muhammad Adil</a></p>
+## Problem
+<!-- 2-3 lines: kaunsa masla hal kiya gaya hai -->
+
+## Dataset
+<!-- Dataset ka naam aur rows/columns kitne hain -->
+
+## Tools
+Python · Computer Vision · OCR
+
+## Approach
+1. Data load aur cleaning
+2. Exploratory analysis
+3. Model / analysis
+4. Evaluation
+
+## Result
+<!-- Asal number likho, jaise Accuracy: __% -->
+
+## How to run
+```
+pip install -r requirements.txt
+jupyter notebook
+```
+
+## Author
+Muhammad Adil · AI & Data Science, SZABIST ZABTech, Karachi
+[GitHub](https://github.com/adilkhattak42201-del)
